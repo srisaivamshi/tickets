@@ -87,4 +87,9 @@ nav{
         justify-content:space-between;
         align-items: center;
     }
+    .span--third{
+        font-size: 70%;
+        top:-5px;
+        left:-4px;
+    }
 }

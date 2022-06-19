@@ -59,12 +59,10 @@ nav{
     }
     .span--second{
         font-size: 100%;
-        /* color:white; */
         color:gray;
         font-weight: bold;
     }
     .span--third{
-    /* border:none; */
     padding:0 2px;
     background-color: black;
     color:white;
@@ -82,6 +80,7 @@ nav{
       font-size:55%;
     }
     .nav--sec{
+        font-size:50%;
         min-width: 75%;
         letter-spacing: 0.5px;
         display: flex;

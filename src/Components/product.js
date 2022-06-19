@@ -80,7 +80,7 @@ export default function Product({ item, name, wishList }) {
   return (
     <div className="product--main">
       <div className="product--img">
-        <img src={Img} alt="vamshi" />
+        <img src={Img} alt="vamshi" className="movie_img"/>
         <div className="product--favourite">
           <img
             onClick={() => TogglePhoto(Title)}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tickets/static/css/main.91d070ca.css",
+    "main.js": "/tickets/static/js/main.3557a33b.js",
+    "static/media/empty-wishlist.svg": "/tickets/static/media/empty-wishlist.fceed99c556bc6e50310fbb8122fef53.svg",
+    "index.html": "/tickets/index.html",
+    "main.91d070ca.css.map": "/tickets/static/css/main.91d070ca.css.map",
+    "main.3557a33b.js.map": "/tickets/static/js/main.3557a33b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91d070ca.css",
+    "static/js/main.3557a33b.js"
+  ]
+}

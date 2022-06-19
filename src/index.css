@@ -1,0 +1,7 @@
+body{
+    /* background-image: url("https://i.pinimg.com/736x/91/fc/3c/91fc3c29e89ecf860d604b7f5738c353--green-backgrounds-abstract-backgrounds.jpg"); */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #fff;
+}

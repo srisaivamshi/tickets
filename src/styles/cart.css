@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cart--main {
+  font-family: sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.cart_img {
+  display: flex;
+  min-width: 20%;
+}
+.cart_box {
+  box-sizing: border-box;
+  position: relative; 
+  width: 100%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(188, 188, 188);
+  border-radius:10px;
+  margin-bottom: 5px;
+  border:2px solid skyblue;
+  padding: 15px;
+}
+.cart_img p {
+  font-size: 90%;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.Buttons{
+    max-width: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.cart--last{
+    max-width:80px;
+    display: flex;
+}
+.cart--button_minus,.cart--button_plus,.cart--button {
+  padding: 5px 6px;
+  font-weight: bold;
+  background-color: #b3b4cb;
+  border-radius: 3.5px;
+}
+.cart_box .cart--button_plus:hover{
+  background-color: green;
+}
+.cart_box .cart--button_minus:hover{
+  background-color: red;
+}
+.cart_box div:nth-child(3) button {
+  padding: 5px 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: red;
+}
+.cart_box div:nth-child(3) span {
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.not_there{
+    width:100%;
+    color:black;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.not_there--img{
+width: 25%;
+}
+
+.total .first {
+  font-size: 160%;
+  color: rgb(147, 13, 188);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total .second {
+  font-size: 160%;
+  color: green;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart--main {
+    width: 90%;
+    font-size: 80%;
+  }
+  .total{
+    font-size:80%;
+  }
+  .cart_img {
+    display: flex;
+    min-width: 45%;
+  }
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wish--main {
+  width: 75%;
+  font-family: sans-serif;
+  margin: auto;
+}
+.cart--button_plus,.cart--button_minus{
+  cursor: pointer;
+}
+.WishList--main{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+  /* background-color: red; */
+}
+.WishList--main .Image {
+  width: 60px;
+  height: 60px;
+}
+.WishList--img {
+  display: flex;
+  width: 400px;
+}
+.WishList--img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.WishList--main div:nth-child(2) button {
+  padding: 12px;
+  font-weight: bold;
+  background-color: #b3b4cb;
+  border-radius: 3.5px;;
+  margin-right: 5px;
+}
+.WishList--main .cart--button_plus:hover{
+  background-color: green;
+}
+.WishList--main .cart--button_minus:hover{
+  background-color: red;
+}
+.Buttons{
+  max-width: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.empty--wishlist{
+margin:auto auto;
+box-sizing: border-box;
+position: relative;
+width: 100%;
+max-height: 600px;;
+}
+@media only screen and (max-width: 600px) {
+.wish--main{
+  width: 90%;
+  font-size: 80%;
+}
+}

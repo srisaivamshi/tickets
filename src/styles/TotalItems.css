@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.admin--article {
+  font-family: sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+
+.WishList--main1{
+  margin:auto auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+
+.WishList--main1 .Image {
+  width: 60px;
+  height: 60px;
+}
+
+
+.WishList--img1 {
+  display: flex;
+  width: 400px;
+}
+
+
+.WishList--img1 p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.WishList--main1 div:nth-child(2) button {
+  padding: 12px;
+  font-weight: bold;
+  background-color: #b3b4cb;
+  border-radius: 3.5px;;
+  margin-right: 5px;
+}
+
+
+.WishList--main1 .cart--button_plus1:hover{
+  background-color: green;
+  cursor:pointer;
+}
+
+
+.WishList--main1 .cart--button_minus1:hover{
+  background-color: red;
+  cursor:pointer;
+}
+
+
+.Buttons1{
+  max-width: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.empty--wishlist1{
+margin:auto auto;
+box-sizing: border-box;
+position: relative;
+width: 100%;
+max-height: 600px;;
+}
+
+
+.AddNewOne{
+  margin-top: 10px;
+  font-size:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f44336;;
+  max-width: 110px;
+  min-height: 40px;
+  color:white;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 600px) {
+.admin--article{
+  width: 90%;
+  font-size: 80%;
+}
+}

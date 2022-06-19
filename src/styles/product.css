@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main--page{
+    overflow:hidden;
+    /* min-height: 100vh; */
+    background-color: rgb(227, 248, 253);
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe65iuwiM33PJOAbt-qSJBlO3StZaziFTFBg&usqp=CAU"); */
+    
+}
+.all--items{
+    /* overflow:hidden; */
+    font-family: sans-serif;
+    width: 90%;
+    margin:auto;
+    margin-top:4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.product--img{
+    position: relative;
+}
+.product--main{
+    /* overflow:hidden; */
+    position: relative;
+    width:250px;
+    padding:20px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+.product--img img{
+    /* overflow:hidden; */
+    width:220px;
+    height:210px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.product--main{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.01);
+    /* border:0.001px solid black; */
+}
+.product--main:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.15);
+    /* background-color: pink; */
+
+}
+
+
+.product--favourite img{
+    overflow:hidden;
+    width:10%;
+    height:23px;
+    position:absolute;
+    cursor: pointer;
+    top:5%; 
+    right:5%;  
+    border-radius: 50%;
+}
+.product--details p:nth-child(1){
+    font-weight: bold;
+}
+.product--details p:nth-child(2){
+    color:grey;
+    font-size: 0.8rem;;
+}
+.product--details p:nth-child(3){
+    color:grey;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.product--details .AddToCart{
+    margin:auto auto;
+    display: flex;
+    
+    border-radius:2px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 178, 70);
+    font-family: sans-serif;
+    font-weight: bold;
+    width:80%;
+    height:25px;
+    cursor: pointer;
+}
+.product--last{
+    display: flex;
+}
+.product--last img{
+    width:15%;
+    height:30px;
+}
+.product--favourite{
+
+}
+.inner{
+   background-color: red;
+}

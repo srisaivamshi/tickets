@@ -107,7 +107,8 @@ function App() {
             }
           />
           {/* <Route path="/" element={<Profile loginer={loginer} />} />  */}
-          <Route path="/" element={<Navigate to="/login" />} />
+          <Route path="/" element={<Navigate to="/login" />} />      
+          <Route path="/tickets" element={<Navigate to="/login" />} />
           <Route path="/register" element={<Register />} />
           <Route
             path="/cart"

@@ -1,4 +1,4 @@
 class Config{
-    server_url="http://localhost:5000/";
+    server_url="https://justtickets.herokuapp.com/";
 }
 export let config=new Config();

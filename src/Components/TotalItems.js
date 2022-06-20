@@ -64,7 +64,7 @@ export default function Admin(props) {
       }).then();
     } else {
       // eslint-disable-next-line no-template-curly-in-string
-      fetch("${config.server_url}admin/AddNewItem", {
+      fetch(`${config.server_url}admin/AddNewItem`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

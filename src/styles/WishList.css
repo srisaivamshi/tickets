@@ -62,6 +62,21 @@ max-height: 600px;;
 @media only screen and (max-width: 600px) {
 .wish--main{
   width: 90%;
-  font-size: 80%;
+  font-size: 60%;
+}
+.cart--button_plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+  height:30px;
+}
+.cart--button_minus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+  height:30px;
+  /* height: 10%; */
 }
 }

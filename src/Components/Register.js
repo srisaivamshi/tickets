@@ -80,8 +80,7 @@ export default function Register() {
   return (
     <div className="login--main1" style={styles}>
       <div className="card">
-        <h6>Register</h6>
-
+        <h6>Register</h6> 
         {!show && <p className="ep_account">Please enter your Details</p>}
         {show && (
           <p className="ep_acc">
@@ -92,7 +91,7 @@ export default function Register() {
             &nbsp; page
           </p>
         )}
-        <form>
+        <form className="login_form">
           <div className="input_text">
             <input
               type="text"

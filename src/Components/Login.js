@@ -71,7 +71,7 @@ export default function Login() {
       <div className="card">
         <h6>Welcome User! </h6>
         <br/>
-        <form autoComplete="false"> 
+        <form autoComplete="false" className="login_form"> 
           <div className="input_text">
             <input
               type="text"

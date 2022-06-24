@@ -52,12 +52,18 @@
   display: flex;
   justify-content: space-around;
 }
-.empty--wishlist{
-margin:auto auto;
+.wishList--not_there_img{
+/* margin:auto auto; */
+display: flex;
+align-items: center;
+justify-content: center;
 box-sizing: border-box;
 position: relative;
 width: 100%;
-max-height: 600px;;
+min-height: 90vh;
+}
+.empty--wishlist{
+  width:50%;
 }
 @media only screen and (max-width: 600px) {
 .wish--main{
@@ -78,5 +84,13 @@ max-height: 600px;;
   width:40%;
   height:30px;
   /* height: 10%; */
+}
+.wishList--not_there_img{
+  margin:auto auto;
+  width: 100%;
+  height: 100%;
+}
+.empty--wishlist{
+  width:100%;
 }
 }

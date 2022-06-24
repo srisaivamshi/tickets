@@ -75,17 +75,27 @@ nav{
     left:-5px;
 }
 @media only screen and (max-width: 600px) {
+    nav{
+        color:white;
+        background-color: #232F3E;
+    }
     .nav--main {
+        color:white;
       width: 90%;
-      font-size:55%;
+      /* font-size:55%; */
+    }
+    .nav--head{
+        font-size:75%;
     }
     .nav--sec{
-        font-size:50%;
-        min-width: 75%;
+        font-size:38%;
+        min-width: 73%;
         letter-spacing: 0.5px;
         display: flex;
         justify-content:space-between;
         align-items: center;
+    }.span--second{
+        color:white;
     }
     .span--third{
         font-size: 70%;

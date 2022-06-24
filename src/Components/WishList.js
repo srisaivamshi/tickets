@@ -40,7 +40,8 @@ const WishList = ({ wishList, size, name, Admins }) => {
       <NavBar size={size} name={name} Admins={Admins} />
       <article className="wish--main">
         {wishList.length === 0 && (
-          <img className="empty--wishlist" src={empty_wishlist} alt="vamshi" />
+          <div className="wishList--not_there_img"> <img className="empty--wishlist" src={empty_wishlist} alt="vamshi" /></div>
+         
         )}
         {wishList.map((item, id) => (
           <div className="WishList--main" key={id}>
